@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk banana</title>
+</head>
+<style>
+    *{
+        background-color: yellow;
+        width: 60vw;
+        margin: auto;
+
+    }
+    h1{
+        text-align: center;
+    }
+    #input{
+        display: block;
+        width: 100%;
+        background-color: white
+
+        
+    }
+    #output{
+        display: block;
+        width: 79%;
+        border: 1px solid black;
+        padding: 30px 10px;
+        color: red;
+        margin-top: 10px;
+        background-color:white
+    }
+    button{
+        background-color: yellow;
+        padding: 15px 35px;
+        font-size: 18px;
+        width: 300px;
+        display:flex;
+        margin:10px auto;
+        align-items: center;
+    }
+    .between{
+        background-color: white;
+    }
+
+</style>
+<body>
+    
+    <h1 id="para-tag">Talk banana</h1>
+    <div class="between">
+    <textarea id="input" rows="5" placeholder="enter the text to translate"></textarea>
+    <button id="translate">translate to banana</button>
+    <div class="between">out will show down</div>
+    <div id="output"></div>
+</div>
+
+    <script src="./functtranlation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+}
+.secondpart{
+    margin-top: 50px;
+    height: 10vw;
+
+    text-align: center;
+    background-color: aliceblue;
+}
+label{
+    padding: 5px 0px;
+}
+button{
+    padding:5px 0px;
+    display:flex;
+    margin:10px auto;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+h1,label{
+    text-align: center;
+}
